@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "iTunes search application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node itunes.js & (cd frontend && npm start)",
+    "test": "jest /itunes.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meg-wilde/itunes-search-app.git"
+  },
+  "author": "meg-wilde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meg-wilde/itunes-search-app/issues"
+  },
+  "homepage": "https://github.com/meg-wilde/itunes-search-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "helmet": "^7.1.0",
+    "node": "^20.5.0",
+    "node-fetch": "^3.3.2"
+  }
+}

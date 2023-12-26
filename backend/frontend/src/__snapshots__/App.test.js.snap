@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    id="search-boxes"
+  >
+    <input
+      placeholder="Enter search term"
+      type="text"
+      value=""
+    />
+    <select>
+      <option
+        value="music"
+      >
+        Music
+      </option>
+      <option
+        value="movie"
+      >
+        Movie
+      </option>
+      <option
+        value="podcast"
+      >
+        Podcast
+      </option>
+      <option
+        value="ebook"
+      >
+        Ebook
+      </option>
+      <option
+        value="musicVideo"
+      >
+        musicVideo
+      </option>
+      <option
+        value="audiobook"
+      >
+        Audio Book
+      </option>
+      <option
+        value="shortFilm"
+      >
+        Short Film
+      </option>
+      <option
+        value="tvShow"
+      >
+        TV Show
+      </option>
+      <option
+        value="software"
+      >
+        Software
+      </option>
+      <option
+        value="all"
+      >
+        all
+      </option>
+    </select>
+    <button>
+      Search
+    </button>
+  </div>
+</DocumentFragment>
+`;
