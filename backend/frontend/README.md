@@ -6,7 +6,7 @@ This is a simple web application to search the iTunes directory and allow you to
 
 1. Install the app by cloning the repository to your local machine: git clone https://github.com/meg-wilde/itunes-search-app
 
-2. navigate to the backend directory: cd My-itunes-app/backend
+2. navigate to the backend directory: cd itunes-search-app/backend
 
 3. install backend dependencies: npm install
 
@@ -14,7 +14,7 @@ This is a simple web application to search the iTunes directory and allow you to
 
 5. install frontend dependencies: npm install
 
-6. start the server: cd backend then npm start.
+6. start the server by navigating back to backend: cd ../. then npm start.
 
 ## Instructions to test
 
