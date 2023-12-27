@@ -9,13 +9,10 @@ function App() {
   const [searchResults, setSearchResults] = useState([]); //create a blank array as the initial state for the search results
   const [favourites, setFavourites] = useState([]); //create a blank array to start for storing favourites
 
-  const baseUrl =
-    process.env.NODE_ENV === "production" ? "" : "http://localhost:3001"; //set the url for the app
-
   const handleSearch = async (term, mediaType) => {
     // Make the API request using the url set above
     //take the search term and the media type and pass them into the search
-    const url = `${baseUrl}/search?term=${term}&media=${mediaType}`;
+    const url = `/search?term=${term}&media=${mediaType}`;
     const response = await fetch(url); //wait for the response
     const data = await response.json(); //save the response json as data
     setSearchResults(data.results || []); //add the data results into the array for search results
